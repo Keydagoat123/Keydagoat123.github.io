@@ -494,3 +494,4 @@ Disabling Markdown rendering enables you to use source view features, such as li
 * [About writing and formatting on GitHub](/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
 * [Working with advanced formatting](/en/get-started/writing-on-github/working-with-advanced-formatting)
 * [Quickstart for writing on GitHub](/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+theme: jekyll-theme-dinky
