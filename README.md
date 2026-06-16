@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Links</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b1e0a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.link {
+    display: block;
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.link:hover {
+    background: #f2f2f2;
+    transform: scale(1.03);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+
+    <h1>@YourUsername</h1>
+
+    <a class="link" href="https://instagram.com/yourusername" target="_blank">
+        Instagram
+    </a>
+
+    <a class="link" href="https://youtube.com/@yourchannel" target="_blank">
+        YouTube
+    </a>
+
+    <a class="link" href="https://tiktok.com/@yourusername" target="_blank">
+        TikTok
+    </a>
+
+    <a class="link" href="https://twitter.com/yourusername" target="_blank">
+        X / Twitter
+    </a>
+
+    <a class="link" href="https://yourwebsite.com" target="_blank">
+        Website
+    </a>
+</div>
+
+</body>
+</html>
