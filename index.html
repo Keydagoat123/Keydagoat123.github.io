@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
     width: 90%;
     max-width: 1840px;
     padding: 25px;
@@ -61,15 +61,23 @@ h1 {
 }
 
 .link {
-    display: block;
+    display: flex;
+    justify-content: center;   /* centers text inside box */
+    align-items: center;
+    gap: 10px;
+
     background: white;
     color: black;
     text-decoration: none;
+
     padding: 15px;
     margin: 12px 0;
+
     border-radius: 12px;
     font-weight: bold;
-    transition: transform 0.2s, background 0.2s;
+
+    width: 300px;   /* keeps them as a left column */
+}
 
     width: 300px;        /* controls box width */
 }
