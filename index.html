@@ -20,6 +20,25 @@ body {
     text-align: center;
     width: 90%;
     max-width: 400px;
+    padding: 25px;
+    border-radius: 30px;
+    position: relative;
+    background: white;
+    z-index: 1;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border-radius: 35px;
+    background: linear-gradient(
+        135deg,
+        #ff66cc,
+        #66ccff
+    );
+    z-index: -1;
+}
 }
 
 .profile-pic {
