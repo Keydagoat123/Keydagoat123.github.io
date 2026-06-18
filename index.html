@@ -30,21 +30,7 @@ body {
     .mobile-only-message {
         display: block; / Show message on mobile */
     }
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-    .container > * {
-    opacity: 0;
-    animation: fadeIn 0.8s ease forwards;
-}
 .header {
     width: 100%;
     text-align: left;
@@ -164,7 +150,21 @@ max-width: 200px;   /* Limit width */
     background: #f2f2f2;
     transform: scale(1.03);
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    .container > * {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+}
 </style>
 </head>
 
