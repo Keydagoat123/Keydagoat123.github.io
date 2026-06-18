@@ -86,6 +86,21 @@ h1 {
 
     width: 300px;        /* controls box width */
 }
+.links-video {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links {
+    flex: 1;
+}
+
+.side-video {
+    width: 180px;
+    border-radius: 15px;
+}
 }
 
 .link:hover {
@@ -98,33 +113,35 @@ h1 {
 <body>
 
 
-<div class="container">
+<div class="links-video">
 
-    <div class="header">
-        <img src="spitavious.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Spitavious</h1>
+    <div class="links">
+        <a class="link" href="https://instagram.com/Spitavious" target="_blank">
+            Instagram
+        </a>
+
+        <a class="link" href="https://youtube.com/@Spitavious" target="_blank">
+            YouTube
+        </a>
+
+        <a class="link" href="https://tiktok.com/@Spitavious" target="_blank">
+            TikTok
+        </a>
+
+        <a class="link" href="https://x.com/Spitavious" target="_blank">
+            X / Twitter
+        </a>
+
+        <a class="link" href="https://www.twitch.tv/spitavious" target="_blank">
+            Twitch
+        </a>
     </div>
 
-    <a class="link" href="https://instagram.com/Spitavious" target="_blank">
-        <i class="fa-brands fa-instagram"></i> Instagram
-    </a>
+    <video class="side-video" controls autoplay muted loop>
+        <source src="SpitVideo.mp4" type="video/mp4">
+    </video>
 
-    <a class="link" href="https://youtube.com/@Spitavious" target="_blank">
-        <i class="fa-brands fa-youtube"></i> YouTube
-    </a>
-
-    <a class="link" href="https://tiktok.com/@Spitavious" target="_blank">
-        <i class="fa-brands fa-tiktok"></i> TikTok
-    </a>
-
-    <a class="link" href="https://x.com/Spitavious" target="_blank">
-        <i class="fa-brands fa-x-twitter"></i> X / Twitter
-    </a>
-
-    <a class="link" href="https://www.twitch.tv/spitavious" target="_blank">
-        <i class="fa-brands fa-twitch"></i> Twitch
-    </a>
-
+</div>
 </div>
 
 </body>
