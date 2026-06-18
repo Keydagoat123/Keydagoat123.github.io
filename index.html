@@ -84,8 +84,7 @@ h1 {
     width: 300px;   /* keeps them as a left column */
 }
 
-    width: 300px;        /* controls box width */
-}
+
 .links-video {
     display: flex;
     gap: 20px;
@@ -101,7 +100,6 @@ h1 {
     width: 180px;
     border-radius: 15px;
 }
-}
 
 .link:hover {
     background: #f2f2f2;
@@ -112,7 +110,13 @@ h1 {
 
 <body>
 
+<div class="container">
 
+    <div class="header">
+        <img src="spitavious.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Spitavious</h1>
+    </div>
+    
 <div class="links-video">
 
     <div class="links">
@@ -141,8 +145,9 @@ h1 {
         <source src="SpitVideo.mp4" type="video/mp4">
     </video>
 
-</div>
-</div>
+    </div> <!-- links-video -->
+
+</div> <!-- container -->
 
 </body>
 </html>
