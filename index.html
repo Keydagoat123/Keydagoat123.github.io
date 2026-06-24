@@ -173,11 +173,46 @@ max-width: 200px;   /* Limit width */
             text-align: center
         }
     }
+    .nav-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border-radius: 15px;
+
+    z-index: 9999;
+
+    box-shadow:
+        0 0 10px #ff66cc,
+        0 0 20px #66ccff;
+
+    transition: 0.2s;
+}
+
+.nav-arrow:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
 }
 </style>
 </head>
 
 <body>
+
+<a href="mini.html" class="nav-arrow left-arrow">◀</a>
+<a href="mini.html" class="nav-arrow right-arrow">▶</a>
 
 <div class="container">
 
